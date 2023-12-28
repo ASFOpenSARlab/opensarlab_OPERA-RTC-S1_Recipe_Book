@@ -1,0 +1,20 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+root: intro
+format: jb-book
+parts:
+  - caption: Introduction
+    chapters:
+      - file: intro/opera_rtc-s1_intro.md
+  - caption: Software Environments
+    chapters:
+      - file: software_environments/OPERA_RTC-S1_jupyter_book_env.ipynb
+  - caption: Data Access
+    chapters:
+      - file: data_access/burst_ID_extractor.ipynb
+      - file: data_access/search_download_OPERA-RTC-S1.ipynb
+  - caption: Data Recipes
+    chapters:
+      - file: data_recipes/OPERA-RTC-S1-time_series.ipynb
+
