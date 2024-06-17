@@ -14,6 +14,7 @@ dependencies:
   - rasterio
   - dask
   - xarray
+  - rioxarray
   - pip
   - pip:
     - url_widget
