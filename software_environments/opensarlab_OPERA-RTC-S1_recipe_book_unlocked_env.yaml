@@ -10,7 +10,11 @@ dependencies:
   - matplotlib-base
   - opensarlab_lib
   - pandas
-  - pip
   - scipy
+  - rasterio
+  - dask
+  - xarray
+  - rioxarray
+  - pip
   - pip:
     - url_widget
