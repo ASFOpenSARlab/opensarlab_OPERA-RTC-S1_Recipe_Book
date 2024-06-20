@@ -37,12 +37,16 @@ A Jupyter Book of data recipes for use with Observational Products for End-Users
 
 >1. ### Install the software environment needed to run the notebooks
 >
->    - Run the **Install Required Software with Conda** notebook ([search_download_OPERA-RTC-S1.ipynb](search_download_OPERA-RTC-S1.ipynb))
+>    - [Install Required Software with Conda](search_download_OPERA-RTC-S1.ipynb)
 >    - Rerun this step periodically. Updates to environment config files will not take effect unless you update or recreate your environment.
 >
 >1. ### Explore data access notebooks
+>    - [OPERA Burst IDs from Sentinel-1 SLC IDs](burst_ID_extractor.ipynb)
 >    - [Direct S3 Access](OPERA_S3_Access.ipynb)
->    - 
+>    - [Download Data](search_download_OPERA-RTC-S1.ipynb)
+>
+>1. ### RTC-Based Analyses
+>    - [RTC Time Series](OPERA-RTC-S1-time_series.ipynb)
 
 ## Contact Us
 
