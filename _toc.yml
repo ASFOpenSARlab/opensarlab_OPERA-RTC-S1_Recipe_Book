@@ -1,6 +1,3 @@
-# Table of contents
-# Learn more at https://jupyterbook.org/customize/toc.html
-
 root: intro
 format: jb-book
 parts:
@@ -14,6 +11,7 @@ parts:
     chapters:
       - file: burst_ID_extractor.ipynb
       - file: search_download_OPERA-RTC-S1.ipynb
+      - file: OPERA_S3_Access.ipynb
   - caption: Data Recipes
     chapters:
       - file: OPERA-RTC-S1-time_series.ipynb
