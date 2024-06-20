@@ -15,4 +15,15 @@ parts:
   - caption: Data Recipes
     chapters:
       - file: OPERA-RTC-S1-time_series.ipynb
-
+  - caption: Resources
+    chapters:
+    - url: https://www.jpl.nasa.gov/go/opera
+      title: OPERA Website
+    - url: https://www.jpl.nasa.gov/go/opera/products/rtc-product
+      title: OPERA RTC-S1 Product Documentation 
+    - url: https://asf.alaska.edu/datasets/daac/opera/
+      title: ASF OPERA Page
+    - url : https://github.com/opera-adt
+      title: OPERA Algorithm Development Team GitHub Org
+    - url: https://github.com/OPERA-Cal-Val/OPERA_Applications/tree/main
+      title: OPERA_Applications Repo (More OPERA data recipes)
