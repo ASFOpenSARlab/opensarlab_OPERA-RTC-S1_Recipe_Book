@@ -7,7 +7,7 @@
 
 ## opensarlab_OPERA-RTC-S1_Recipe_Book
 
-A Jupyter Book of data recipes for use with Observational Products for End-Users from Remote Sensing Analysis (OPERA), Coregistered Single-look Complex Sentinel 1 (RTC-S1) data products
+A Jupyter Book of data recipes for use with Observational Products for End-Users from Remote Sensing Analysis (OPERA), Radiometric Terrain Corrected Sentinel 1 (RTC-S1) data products
 
 >"The Radiometric Terrain Corrected (RTC) SAR Backscatter product consists of radar backscatter normalized with respect to the topography. The RTC product is generated from Sentinel-1 as the input dataset and has the short name RTC-S1. The RTC-S1 product is a Level-2 product that is projected onto pre-defined UTM/Polar stereographic map projection systems. The Copernicus global 30 m (GLO-30) Digital Elevation Model (DEM) is the reference DEM used to correct for the impacts of topography and to geocode the product. The RTC product maps signals largely related to the physical properties of the ground scattering objects, such as surface roughness and soil moisture and/or vegetation. The RTC product also serves as the basis for the DSWx-S1 products. The product is provided in a GeoTIFF file format and has a posting of 30 m."
 >
