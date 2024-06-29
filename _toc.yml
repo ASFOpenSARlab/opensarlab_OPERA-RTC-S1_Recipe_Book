@@ -1,20 +1,29 @@
-# Table of contents
-# Learn more at https://jupyterbook.org/customize/toc.html
-
 root: intro
 format: jb-book
 parts:
   - caption: Introduction
     chapters:
-      - file: intro/opera_rtc-s1_intro.md
+      - file: README.md
   - caption: Software Environments
     chapters:
-      - file: software_environments/OPERA_RTC-S1_jupyter_book_env.ipynb
+      - file: OPERA_RTC-S1_jupyter_book_env.ipynb
   - caption: Data Access
     chapters:
-      - file: data_access/burst_ID_extractor.ipynb
-      - file: data_access/search_download_OPERA-RTC-S1.ipynb
+      - file: burst_ID_extractor.ipynb
+      - file: search_download_OPERA-RTC-S1.ipynb
+      - file: OPERA_S3_Access.ipynb
   - caption: Data Recipes
     chapters:
-      - file: data_recipes/OPERA-RTC-S1-time_series.ipynb
-
+      - file: OPERA-RTC-S1-time_series.ipynb
+  - caption: Resources
+    chapters:
+    - url: https://www.jpl.nasa.gov/go/opera
+      title: OPERA Website
+    - url: https://www.jpl.nasa.gov/go/opera/products/rtc-product
+      title: OPERA RTC-S1 Product Documentation 
+    - url: https://asf.alaska.edu/datasets/daac/opera/
+      title: ASF OPERA Page
+    - url : https://github.com/opera-adt
+      title: OPERA Algorithm Development Team GitHub Org
+    - url: https://github.com/OPERA-Cal-Val/OPERA_Applications/tree/main
+      title: OPERA_Applications Repo (More OPERA data recipes)
